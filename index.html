@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iQuant Supersmartphones Sales Funnel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to iQuant Supersmartphones</h1>
+        <p>Revolutionary technology at your fingertips.</p>
+    </header>
+
+    <section id="funnel-steps">
+        <div class="step">
+            <h2>Step 1: Discover</h2>
+            <p>Learn about the cutting-edge features of iQuant Supersmartphones.</p>
+            <button onclick="goToNextStep(1)">Next</button>
+        </div>
+        <div class="step hidden">
+            <h2>Step 2: Compare</h2>
+            <p>See how we stand out against competitors in price and quality.</p>
+            <button onclick="goToNextStep(2)">Next</button>
+        </div>
+        <div class="step hidden">
+            <h2>Step 3: Purchase</h2>
+            <p>Ready to own the future? Buy your iQuant Supersmartphone today!</p>
+            <button onclick="goToNextStep(3)">Finish</button>
+        </div>
+        <div id="thank-you" class="hidden">
+            <h2>Thank You!</h2>
+            <p>You've completed the sales funnel. Enjoy your new iQuant Supersmartphone!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 iQuant Supersmartphones. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
